@@ -1,0 +1,33 @@
+/* Techstack.css */
+
+.techstack-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-color: black;
+    padding: 5%;
+  }
+
+  .techstack-heading{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .techstack-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 800px; */
+    justify-content: center;
+  }
+  
+  .techstack-icon {
+    display: flex;
+    color: aliceblue;
+    margin: 20px;
+    font-size: 80px;
+  }
+  

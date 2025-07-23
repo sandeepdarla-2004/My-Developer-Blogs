@@ -1,0 +1,87 @@
+.singlePostWrapper {
+  padding: 20px;
+  background-color: #0000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.singlePostImg {
+  width: 30%;
+  height: 20%;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.singlePostTitle {
+  font-size: 40px;
+  font-family: "Lora", serif;
+  color: #ffff;
+  margin-bottom: 10px;
+}
+
+.singlePostEdit {
+  float: right;
+  color: #54e668;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #54e668;
+  font-size: 30px;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  color: #54e668;
+}
+
+.singlePostAuthor,
+.singlePostDate {
+  font-size: 25px;
+  font-family: "Varela Round", sans-serif;
+  color: #54e668;
+  margin-right: 20px;
+}
+
+.singlePostDesc {
+  font-size: 18px;
+  color:#ffff;
+  line-height: 1.6;
+}
+
+.singlePostDescInput {
+  width: 200%;
+  height: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+
+  
+}
+
+.singlePostButton {
+  padding: 10px 20px;
+  background-color: #54e668;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.singlePostButton:hover {
+  background-color: #3ba150;
+}
+
+.singlePostHr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}

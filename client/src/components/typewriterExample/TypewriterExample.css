@@ -1,0 +1,9 @@
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #54e668;
+  font-size: 90px;
+}
+

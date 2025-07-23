@@ -1,0 +1,88 @@
+.top {
+  width: 100%;
+  height: 70px;
+  background-color:black;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family:  sans-serif;
+  z-index: 999;
+  color: white;
+  border-bottom: 2px solid #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .topRight  :hover{
+  color: #45a049;
+} */
+
+
+.topCenter {
+  flex: 6;
+}
+.topListItem :hover {
+  color: #45a049;
+}
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.logo-img{
+  width: 120px;
+  height: auto;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.topListItem .button {
+  background-color: #0c5c17;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.topListItem .button:hover {
+  background-color: #45a049;
+}
